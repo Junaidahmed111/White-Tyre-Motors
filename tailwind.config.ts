@@ -13,6 +13,7 @@ const config: Config = {
         colorButton: "#f58334",
         colorText: "#0364b0",
         colorBgHero: "#eeeeee",
+        colorYellow:"#ecb22d"
       },
     },
   },
