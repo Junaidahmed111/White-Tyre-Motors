@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderMobile from "./header/HeaderMobile";
+import Header1 from "./header/Header1";
 
 const Navbar = () => {
   return (
     <section>
-      <HeaderMobile />
+      <Header1 />
     </section>
   );
 };
