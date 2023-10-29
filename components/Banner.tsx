@@ -8,7 +8,7 @@ import { LuTimer } from "react-icons/lu";
 
 const Banner = () => {
   return (
-    <section className="lg:flex justify-evenly text-xl text-white bg-colorYellow py-4 hidden">
+    <section className="lg:flex justify-evenly text-sm text-white bg-colorYellow py-2 hidden">
       <div className="flex justify-center items-center">
         <AiOutlineCalendar />
         <span>Open 7 Days a Week</span>

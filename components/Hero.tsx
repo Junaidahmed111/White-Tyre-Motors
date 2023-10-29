@@ -5,9 +5,9 @@ import ProductFinder from "./ProductFinder";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col w-full justify-center items-center imgBg pt-8">
+    <section className="flex flex-col w-full justify-center items-center imgBg pt-4">
       {/* div 1 for buttons */}
-      <div className="flex flex-col lg:flex-row  justify-center items-center w-[90%] lg:w-[50%] h-[8vh]">
+      <div className="flex flex-col lg:flex-row  justify-center items-center w-[80%] lg:w-[50%] h-[12vh]">
         <div className="flex bg-colorText items-center justify-center w-full h-[50%] gap-x-2">
           <span className=" text-colorBgHero text-lg">search by vehicle</span>
           <AiOutlineSearch color="white" size={20} />

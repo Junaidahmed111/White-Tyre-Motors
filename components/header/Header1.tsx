@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import logo from "@/public/assets/logo.png";
 import Image from "next/image";
 import { AiOutlineShoppingCart, AiOutlineMenu } from "react-icons/ai";
@@ -6,7 +7,17 @@ import Button from "../Button";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsCart3 } from "react-icons/bs";
 
+import Link from "next/link";
+
+import { AiOutlineClose } from "react-icons/ai";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 const Header1 = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <section className=" flex flex-col md:h-[12vh] lg:h-[20vh]">
       <div className="md:flex justify-end p-4 gap-x-5 hidden">
@@ -30,7 +41,56 @@ const Header1 = () => {
             <AiOutlineShoppingCart size={20} color="white" />
           </div>
           <div className=" bg-colorButton w-[40%] flex items-center justify-center ">
-            <AiOutlineMenu size={20} color="white" />
+            <div className="flex order-3 lg:hidden md:order-non">
+              <button className="2xl:hidden z-20" onClick={handleMenuToggle}>
+                {menuOpen ? (
+                  <AiOutlineClose size="30px" color="#fff" />
+                ) : (
+                  <RxHamburgerMenu size="30px" color="#fff" />
+                )}
+              </button>
+            </div>
+            {menuOpen && (
+              <div className="lg:hidden absolute text-right inset-0 w-full top-24 h-fit flex flex-col p-4 space-y-1 bg-black z-50">
+                <div className="flex justify-center flex-col gap-y-5 py-5 text-white">
+                  <Link
+                    href="#users"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Users</span>
+                  </Link>
+                  <Link
+                    href="#features"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Features</span>
+                  </Link>
+                  <Link
+                    href="#wishes"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Wishes</span>
+                  </Link>
+                  <Link
+                    href="#get-started"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Get started</span>
+                  </Link>
+                </div>
+                <hr />
+                <div className="flex justify-stretch flex-col gap-y-5 py-4 items-stretch text-center rounded-xl">
+                  <span className="bg-colorB text-white font-bold text-sm rounded-xl items-center content-center cursor-pointer px-5 py-3">
+                    Login
+                  </span>
+                </div>
+              </div>
+            )}
+            {/* <AiOutlineMenu size={20} color="white" /> */}
           </div>
         </div>
         {/* -------------- */}

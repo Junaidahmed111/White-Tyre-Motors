@@ -14,6 +14,7 @@ const config: Config = {
         colorBgHero: "#eeeeee",
         colorYellow: "#ecb22d",
         footerTextColor: "#93d4f9",
+        headerBorder: "#036bbc",
       },
     },
   },

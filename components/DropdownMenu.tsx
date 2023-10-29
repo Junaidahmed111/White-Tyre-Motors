@@ -19,7 +19,7 @@ const DropdownMenu: React.FC = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
-          className="inline-flex items-center gap-x-2 justify-center w-full lg:w-[80%] rounded-md border h-12 border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
+          className="inline-flex items-center gap-x-2 justify-between w-full lg:w-[80%] rounded-md border h-12 border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
           id="options-menu"
           aria-haspopup="true"
           aria-expanded={isOpen ? "true" : "false"}

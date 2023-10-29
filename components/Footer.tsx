@@ -16,6 +16,7 @@ import pypalcredit from "@/public/assets/paypalCredit.webp";
 import visa from "@/public/assets/visa.webp";
 import masterCard from "@/public/assets/mastercard.webp";
 import bumper from "@/public/assets/bumper.png";
+import logo2 from "@/public/assets/logo2.png";
 
 const Footer = () => {
   return (
@@ -147,7 +148,7 @@ const Footer = () => {
       <div className="flex w-[100%] items-center justify-center bg-colorText">
         <div className="lg:flex w-[20%] hidden">
           <Image
-            src={logo}
+            src={logo2}
             alt="logo"
             width={120}
             height={50}
