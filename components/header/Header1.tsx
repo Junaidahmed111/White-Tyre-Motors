@@ -6,8 +6,7 @@ import { AiOutlineShoppingCart, AiOutlineMenu } from "react-icons/ai";
 import Button from "../Button";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsCart3 } from "react-icons/bs";
-import { BiChevronRight } from "react-icons/bi";
-import Link from "next/link";
+import { IoMdArrowRoundBack } from "react-icons/io";
 import navList from "@/data/navList";
 import SideNavItem from "./SideNavItem";
 
@@ -62,11 +61,11 @@ const Header1 = () => {
               </button>
             </div>
             {menuOpen && (
-              <div className="lg:hidden absolute text-left inset-0 w-[80%] top-24 h-screen flex flex-col p-4 space-y-1 bg-colorText z-50">
-                <div className="flex justify-center flex-col gap-y-5 py-5 text-white">
+              <div className="lg:hidden absolute text-left inset-0 w-[80%] top-24 h-screen flex flex-col p-4 space-y-1 bg-colorText z-50 ">
+                <div className="flex justify-center flex-col gap-y-5 py-12 text-white">
                   {activeTitle ? (
                     <div>
-                      <button onClick={handleBackClick}>Back</button>
+                      <button onClick={handleBackClick}><IoMdArrowRoundBack size={20}/></button>
                       {navList.map((navItem) => {
                         if (navItem.title === activeTitle) {
                           return navItem.subTitle.map((subItem) => (
