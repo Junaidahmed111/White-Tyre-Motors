@@ -6,7 +6,7 @@ import { AiOutlineShoppingCart, AiOutlineMenu } from "react-icons/ai";
 import Button from "../Button";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsCart3 } from "react-icons/bs";
-
+import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
 
 import { AiOutlineClose } from "react-icons/ai";
@@ -31,8 +31,8 @@ const Header1 = () => {
         <Button>White Tyre</Button>
       </div>
 
-      <div className="flex px-6 h-[6vh] items-center justify-between ">
-        <div className="md:w-[20vw] lg:h-[8vh] w-[120px] h-[10px] ">
+      <div className="flex px-6 h-[6vh] items-center justify-between">
+        <div className="md:w-[20vw] lg:h-[8vh] w-[120px] h-[10px]">
           <Image src={logo} alt="logo" className="" />
         </div>
         {/* md:hidden */}
@@ -51,41 +51,118 @@ const Header1 = () => {
               </button>
             </div>
             {menuOpen && (
-              <div className="lg:hidden absolute text-right inset-0 w-full top-24 h-fit flex flex-col p-4 space-y-1 bg-black z-50">
+              <div className="lg:hidden absolute text-left inset-0 w-[80%] top-24 h-screen flex flex-col p-4 space-y-1 bg-colorText z-50">
                 <div className="flex justify-center flex-col gap-y-5 py-5 text-white">
+                  <div className="flex justify-between">
                   <Link
                     href="#users"
                     onClick={handleMenuToggle}
                     className="no-underline hover:text-colorB"
                   >
-                    <span>Users</span>
-                  </Link>
+                    <span>Tyres</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
+                    <div className="flex justify-between">
                   <Link
-                    href="#features"
+                    href="#"
                     onClick={handleMenuToggle}
                     className="no-underline hover:text-colorB"
                   >
-                    <span>Features</span>
-                  </Link>
+                    <span>MOT</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
                   <Link
-                    href="#wishes"
+                    href="#"
                     onClick={handleMenuToggle}
                     className="no-underline hover:text-colorB"
                   >
-                    <span>Wishes</span>
+                    <span>Servicing</span>
                   </Link>
+                  <div className="flex justify-between">
                   <Link
-                    href="#get-started"
+                    href="#"
                     onClick={handleMenuToggle}
                     className="no-underline hover:text-colorB"
                   >
-                    <span>Get started</span>
+                    <span>Brakes</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
+                    <div className="flex justify-between">
+                  <Link
+                    href="#"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Batteries</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
+                    <div className="flex justify-between">
+                  <Link
+                    href="#"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Other Products</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
+                    <Link
+                    href="#"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Offers</span>
                   </Link>
+                  <Link
+                    href="#"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>Careers</span>
+                  </Link>
+                    <div className="flex justify-between">
+                  <Link
+                    href="#"
+                    onClick={handleMenuToggle}
+                    className="no-underline hover:text-colorB"
+                  >
+                    <span>White Tyres Club</span>
+                    </Link>
+                    <Link href="#">
+                    <BiChevronRight size = {25}/>
+                    </Link>
+                    </div>
+                      <div className="flex justify-between">
+                    <Link
+                      href="#"
+                      onClick={handleMenuToggle}
+                      className="no-underline hover:text-colorB"
+                    >
+                      <span>More</span>
+                      </Link>
+                      <Link href="#">
+                      <BiChevronRight size = {25}/>
+                      </Link>
+                      </div>
                 </div>
                 <hr />
                 <div className="flex justify-stretch flex-col gap-y-5 py-4 items-stretch text-center rounded-xl">
                   <span className="bg-colorB text-white font-bold text-sm rounded-xl items-center content-center cursor-pointer px-5 py-3">
-                    Login
+                    © 2023 White Tyre Motors Limited
                   </span>
                 </div>
               </div>
