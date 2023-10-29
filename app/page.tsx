@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Offers from "@/components/Offers";
 import ViewOrder from "@/components/ViewOrder";
 import Experts from "@/components/Experts";
+import Service from "@/components/Service";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Offers />
       <ViewOrder />
       <Experts />
+      <Service />
     </main>
   );
 }
