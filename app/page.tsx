@@ -4,6 +4,7 @@ import Offers from "@/components/Offers";
 import ViewOrder from "@/components/ViewOrder";
 import Experts from "@/components/Experts";
 import Service from "@/components/Service";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ViewOrder />
       <Experts />
       <Service />
+      <CTA/>
     </main>
   );
 }

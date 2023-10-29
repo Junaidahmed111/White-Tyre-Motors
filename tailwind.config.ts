@@ -5,7 +5,6 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-
   ],
   theme: {
     extend: {
@@ -13,7 +12,8 @@ const config: Config = {
         colorButton: "#f58334",
         colorText: "#0364b0",
         colorBgHero: "#eeeeee",
-        colorYellow:"#ecb22d"
+        colorYellow: "#ecb22d",
+        footerTextColor: "#93d4f9",
       },
     },
   },
