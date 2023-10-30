@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import payment1 from "@/public/assets/payment1.webp";
 import Image from "next/image";
-import logo from "@/public/assets/logo.png";
+import logo from "@/public/assets/nft_logo.png";
 import fb from "@/public/assets/facebook.webp";
 import insta from "@/public/assets/insta.webp";
 import x from "@/public/assets/x.webp";
@@ -148,15 +148,15 @@ const Footer = () => {
       <div className="flex w-[100%] items-center justify-center bg-colorText">
         <div className="lg:flex w-[20%] hidden">
           <Image
-            src={logo2}
+            src={logo}
             alt="logo"
-            width={120}
+            width={70}
             height={50}
             className="bg-cover"
           />
         </div>
         <div className="lg:flex gap-x-3 w-[40%] hidden">
-          <Image src={firelin} alt="logo" width={120} height={50} />
+          <Image src={firelin} alt="logo" width={120} height={20} />
           <Image src={mechalin} alt="logo" width={120} height={50} />
           <Image src={goodYear} alt="logo" width={120} height={50} />
         </div>

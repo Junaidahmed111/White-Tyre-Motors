@@ -4,20 +4,23 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <section className="w-full flex flex-col my-14">
+    <section className="w-full flex flex-col justify-center items-center my-14">
       <div className="text-colorText text-3xl flex text-center font-medium justify-center">
         <span>Our Services</span>
       </div>
 
       <div className="flex flex-col md:flex-row w-[100%] justify-center items-center">
-        <div className="space-x-4 md:w-[30%] w-[90%] justify-center items-center">
-            <Image
+        <div className="space-x-4 md:w-[30%] w-[90%] flex flex-col justify-center">
+          <div className="flex justify-center items-center w-full">
+          <Image
               src={service1}
               alt="experts"
               width={200}
               height={200}
               className="md:w-250 md:h-250"
             />
+          </div>
+           
             <h3 className="text-xl font-semibold text-colorText">
               Highly Trained Technicians
             </h3>
@@ -31,7 +34,7 @@ const Service = () => {
 
         {/* Add similar adjustments for other service blocks */}
         <div className="space-x-4 md:w-[30%] w-[90%]">
-          <div className="">
+        <div className="flex justify-center items-center w-full">
             <Image
               src={service1}
               alt="experts"
@@ -55,7 +58,7 @@ const Service = () => {
 
         {/* Add similar adjustments for other service blocks */}
         <div className=" space-x-4 md:w-[30%] w-[90%]">
-          <div className="flex flex-col">
+        <div className="flex justify-center items-center w-full">
             <Image
               src={service1}
               alt="experts"
@@ -82,6 +85,8 @@ const Service = () => {
 
       <div className="flex flex-col md:flex-row w-[100%] justify-center items-center">
         <div className="md:w-[30%] w-[90%] justify-center items-center">
+        <div className="flex justify-center items-center w-full">
+
           <Image
             src={service1}
             alt="experts"
@@ -89,6 +94,7 @@ const Service = () => {
             height={200}
             className="md:w-250 md:h-250"
           />
+          </div>
           <h3 className="text-xl font-semibold text-colorText">
             Highly Trained Technicians
           </h3>
@@ -103,7 +109,7 @@ const Service = () => {
 
         {/* Add similar adjustments for other service blocks */}
         <div className="space-x-4 md:w-[30%] w-[90%]">
-          <div className="flex flex-col">
+        <div className="flex justify-center items-center w-full">
             <Image
               src={service1}
               alt="experts"
@@ -127,7 +133,7 @@ const Service = () => {
 
         {/* Add similar adjustments for other service blocks */}
         <div className=" space-x-4 md:w-[30%] w-[90%]">
-          <div className="flex flex-col">
+        <div className="flex justify-center items-center w-full">
             <Image
               src={service1}
               alt="experts"

@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import logo from "@/public/assets/logo.png";
 import Image from "next/image";
 import { AiOutlineShoppingCart, AiOutlineMenu } from "react-icons/ai";
 import Button from "../Button";
@@ -9,6 +8,7 @@ import { BsCart3 } from "react-icons/bs";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import navList from "@/data/navList";
 import SideNavItem from "./SideNavItem";
+import logo from "@/public/assets/nft_logo.png"
 
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -42,8 +42,8 @@ const Header1 = () => {
       </div>
 
       <div className="flex px-6 h-[6vh] items-center justify-between">
-        <div className="md:w-[20vw] lg:h-[8vh] w-[120px] h-[10px]">
-          <Image src={logo} alt="logo" className="" />
+        <div className="md:w-[20vw] lg:h-[10vh] w-[120px] md:pb-4 h-[10px] lg:mt-[90px] mb-8 justify-center items-center  ">
+          <Image src={logo} alt="logo" className="" width={70} height={50}/>
         </div>
         {/* md:hidden */}
         <div className="flex w-[25%] h-[70%] justify-between md:hidden">
@@ -62,17 +62,19 @@ const Header1 = () => {
             </div>
             {menuOpen && (
               <div className="lg:hidden absolute text-left inset-0 w-[80%] top-24 h-screen flex flex-col p-4 space-y-1 bg-colorText z-50 ">
-                <div className="flex justify-center flex-col gap-y-5 py-12 text-white">
+                <div className="flex justify-center flex-col text-white">
                   {activeTitle ? (
                     <div>
                       <button onClick={handleBackClick}><IoMdArrowRoundBack size={20}/></button>
                       {navList.map((navItem) => {
                         if (navItem.title === activeTitle) {
                           return navItem.subTitle.map((subItem) => (
-                            <SideNavItem
-                              key={subItem.id}
-                              title={subItem.title}
-                            />
+                            <div className="">
+                              <SideNavItem
+                                key={subItem.id}
+                                title={subItem.title}
+                              />
+                            </div>
                           ));
                         }
                         return null;
