@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <section className="w-full flex flex-col">
-      <div className="text-colorText text-3xl flex text-center font-medium justify-center mt-10">
+    <section className="w-full flex flex-col my-14">
+      <div className="text-colorText text-3xl flex text-center font-medium justify-center">
         <span>Our Services</span>
       </div>
 
@@ -25,9 +25,7 @@ const Service = () => {
               When it comes to safety on the road, it's vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
-              our technicians get out of the academy to start inspecting,
-              servicing, and repairing your vehicle, they're the best in the
-              trade.
+              our technicians get out of the.
             </span>
         </div>
 
@@ -50,9 +48,7 @@ const Service = () => {
               When it comes to safety on the road, it's vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
-              our technicians get out of the academy to start inspecting,
-              servicing, and repairing your vehicle, they're the best in the
-              trade.
+              our technicians get out of the.
             </span>
           </div>
         </div>
@@ -76,9 +72,7 @@ const Service = () => {
               When it comes to safety on the road, it's vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
-              our technicians get out of the academy to start inspecting,
-              servicing, and repairing your vehicle, they're the best in the
-              trade.
+              our technicians get out of the.
             </span>
           </div>
         </div>
@@ -103,8 +97,7 @@ const Service = () => {
             When it comes to safety on the road, it's vital to have expert
             technicians working on your car. Our recruitment process includes
             industry-leading, Ofsted-accredited training to ensure that when our
-            technicians get out of the academy to start inspecting, servicing,
-            and repairing your vehicle, they're the best in the trade.
+            technicians get out of the.
           </span>
         </div>
 
@@ -127,9 +120,7 @@ const Service = () => {
               When it comes to safety on the road, it's vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
-              our technicians get out of the academy to start inspecting,
-              servicing, and repairing your vehicle, they're the best in the
-              trade.
+              our technicians get out of the.
             </span>
           </div>
         </div>
@@ -153,9 +144,7 @@ const Service = () => {
               When it comes to safety on the road, it's vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
-              our technicians get out of the academy to start inspecting,
-              servicing, and repairing your vehicle, they're the best in the
-              trade.
+              our technicians get out of the.
             </span>
           </div>
         </div>

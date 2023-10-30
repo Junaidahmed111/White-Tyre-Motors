@@ -5,6 +5,9 @@ import ViewOrder from "@/components/ViewOrder";
 import Experts from "@/components/Experts";
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
+import More from "@/components/More";
+import Gif from "@/components/Gif";
+import Links from "@/components/Links";
 
 export default function Home() {
   return (
@@ -14,8 +17,11 @@ export default function Home() {
       <Offers />
       <ViewOrder />
       <Experts />
+      <Links/>
       <Service />
-      <CTA/>
+      <More />
+      <Gif />
+      <CTA />
     </main>
   );
 }

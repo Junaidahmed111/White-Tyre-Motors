@@ -105,7 +105,7 @@ const Header1 = () => {
           <input
             type="text"
             placeholder="Seacrh for..."
-            className="border border-green-950 w-[80%] py-2 text-xs pl-3"
+            className=" border-[0.5px] border-green-950 w-[80%] py-2 text-xs pl-3"
           />
           <div className="flex bg-colorButton w-[20%]  text-white text-center justify-center items-center gap-x-1 ">
             <span className="font-bold ">search</span>

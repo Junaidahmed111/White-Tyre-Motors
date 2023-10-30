@@ -28,7 +28,7 @@ const ProductFinder = () => {
   <div className="w-[80%]">
     <input
       type="text"
-      className="w-full h-12 bg-colorButton text-lg text-gray-00"
+      className="w-full h-12 bg-yellow-500 text-lg text-gray-00 pl-8"
       placeholder="Enter reg"
     />
   </div>
