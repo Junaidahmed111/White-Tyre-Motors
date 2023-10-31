@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MOThover = () => {
   return (
-    <div className={"absolute w-fit left-11"}>
+    <div className={"absolute w-fit left-11 z-[499]"}>
       <div className="flex !w-[100%] shadow-2xl px-10 py-5 justify-between gap-x-5 bg-white relative top-4">
         {/* 1 */}
         <div className=" flex flex-col flex-1">
