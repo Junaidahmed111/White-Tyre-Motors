@@ -29,7 +29,7 @@ const Header1 = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <section className=" flex flex-col md:h-[12vh] lg:h-[20vh]">
+    <section className="flex flex-col md:h-[12vh] lg:h-[20vh]">
       <div className="md:flex justify-end p-4 gap-x-5 hidden">
         <Button>Contact us</Button>
         <Button>About us</Button>
@@ -42,7 +42,7 @@ const Header1 = () => {
       </div>
 
       <div className="flex px-6 h-[6vh] items-center justify-between">
-        <div className="md:w-[20vw] lg:h-[10vh] w-[120px] md:pb-4 h-[10px] lg:mt-[90px] mb-8 justify-center items-center  ">
+        <div className="">
           <Image src={logo} alt="logo" className="" width={70} height={50}/>
         </div>
         {/* md:hidden */}
@@ -107,7 +107,7 @@ const Header1 = () => {
           <input
             type="text"
             placeholder="Seacrh for..."
-            className=" border-[0.5px] border-green-950 w-[80%] py-2 text-xs pl-3"
+            className=" border-[0.9px] border-green-950 w-[80%] py-2 text-xs pl-3"
           />
           <div className="flex bg-colorButton w-[20%]  text-white text-center justify-center items-center gap-x-1 ">
             <span className="font-bold ">search</span>

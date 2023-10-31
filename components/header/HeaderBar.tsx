@@ -6,10 +6,17 @@ import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import { BiSolidChevronUp } from "react-icons/bi";
 import TyreHover from "../TyreHover";
+import MOThover from "../MOThover";
+import ServicingHover from "../ServicingHover";
+import ProductsHover from "../ProductsHover";
+
 const HeaderBar = () => {
   const [isHovering, setIsHovering] = useState(false);
+  const [isMOTHovering, setIsMOTHovering] = useState(false);
+  const [isServicingHovering, setIsServicingHovering] = useState(false);
+  const [isProductsHovering, setIsProductsHovering] = useState(false);
   return (
-    <div className="fixed top-0 w-full">
+    <div className="fixed top-0 w-full z-[5000]">
       <div className="lg:flex bg-colorText text-white text-sm items-center text-center pl-14 hidden ">
         <Link
           href="#"
@@ -29,22 +36,34 @@ const HeaderBar = () => {
             {" "}
             Tyres
           </Link>
-          {isHovering && <TyreHover top={14} />}
+          {isHovering && <TyreHover />}
         </div>
-        <Link
-          href="#"
-          className="border-r-[2.5px] border-headerBorder py-4 px-5"
+        <div
+          onMouseEnter={() => setIsMOTHovering(true)}
+          onMouseLeave={() => setIsMOTHovering(false)}
         >
-          {" "}
-          MOT
-        </Link>
-        <Link
-          href="#"
-          className="border-r-[2.5px] border-headerBorder py-4 px-5"
+          <Link
+            href="#"
+            className="border-r-[2.5px] border-headerBorder py-4 px-5 "
+          >
+            {" "}
+            MOT
+          </Link>
+          <div> {isMOTHovering && <MOThover />}</div>
+        </div>
+        <div
+          onMouseEnter={() => setIsServicingHovering(true)}
+          onMouseLeave={() => setIsServicingHovering(false)}
         >
-          {" "}
-          Servicing
-        </Link>
+          <Link
+            href="#"
+            className="border-r-[2.5px] border-headerBorder py-4 px-5 "
+          >
+            {" "}
+            Servicing
+          </Link>
+          <div> {isServicingHovering && <ServicingHover />}</div>
+        </div>
         <Link
           href="#"
           className="border-r-[2.5px] border-headerBorder py-4 px-5"
@@ -59,13 +78,19 @@ const HeaderBar = () => {
           {" "}
           Batteries
         </Link>
-        <Link
-          href="#"
-          className="border-r-[2.5px] border-headerBorder py-4 px-5"
+        <div
+          onMouseEnter={() => setIsProductsHovering(true)}
+          onMouseLeave={() => setIsProductsHovering(false)}
         >
-          {" "}
-          Other Products
-        </Link>
+          <Link
+            href="#"
+            className="border-r-[2.5px] border-headerBorder py-4 px-5 "
+          >
+            {" "}
+            Other Products
+          </Link>
+          <div> {isHovering && <ProductsHover />}</div>
+        </div>
         <Link
           href="#"
           className="border-r-[2.5px] border-headerBorder py-4 px-5 bg-colorButton"

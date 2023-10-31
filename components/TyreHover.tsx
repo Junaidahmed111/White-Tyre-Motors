@@ -3,11 +3,7 @@ import React from "react";
 import tyre from "@/public/assets/offer1.webp";
 import Image from "next/image";
 
-interface TOP {
-  top?: number;
-}
-// const possible = ["top-40", "top-46", "top-42", "top-44"];
-const TyreHover = ({ top }: TOP) => {
+const TyreHover = () => {
   return (
     <div className={"absolute w-fit left-11"}>
       <div className="flex !w-[100%] shadow-2xl px-10 py-5 justify-between gap-x-5 bg-white relative top-4">

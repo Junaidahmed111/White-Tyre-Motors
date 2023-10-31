@@ -14,7 +14,7 @@ const DropdownMenu: React.FC = () => {
   ];
 
   return (
-    <div className=" inline-block text-left w-full">
+    <div className="relative inline-block text-left w-full">
       <div>
         <button
           onClick={() => setIsOpen(!isOpen)}

@@ -20,7 +20,7 @@ const ProductFinder = () => {
         </div>
         </div>
         {/* div 2 */}
-        <div className="w-[100%] lg:w-[25%] flex flex-col items-start h-auto lg:h-[10vh]">
+        <div className="w-[100%] lg:w-[25%] flex flex-col gap-y-1 items-start h-auto lg:h-[10vh] mt-3 md:mt-0">
             <div>
               <span className="font-bold">Vehicle registration</span>
             </div>
