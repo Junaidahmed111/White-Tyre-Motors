@@ -15,6 +15,7 @@ const config: Config = {
         colorYellow: "#ecb22d",
         footerTextColor: "#93d4f9",
         headerBorder: "#036bbc",
+        hoverHeading: "#3e3e3e",
       },
     },
   },

@@ -8,11 +8,13 @@ import CTA from "@/components/CTA";
 import More from "@/components/More";
 import Gif from "@/components/Gif";
 import Links from "@/components/Links";
+import TyreHover from "@/components/TyreHover";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <TyreHover/>
+      {/* <Hero />
       <Banner />
       <Offers />
       <ViewOrder />
@@ -20,7 +22,7 @@ export default function Home() {
       <Links/>
       <Service />
       <More />
-      <Gif />
+      <Gif /> */}
       <CTA />
     </main>
   );
