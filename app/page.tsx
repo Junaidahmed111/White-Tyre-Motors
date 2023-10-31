@@ -13,8 +13,8 @@ import TyreHover from "@/components/TyreHover";
 export default function Home() {
   return (
     <main>
-      <TyreHover/>
-      {/* <Hero />
+      {/* <TyreHover/> */}
+      <Hero />
       <Banner />
       <Offers />
       <ViewOrder />
@@ -22,7 +22,7 @@ export default function Home() {
       <Links/>
       <Service />
       <More />
-      <Gif /> */}
+      <Gif />
       <CTA />
     </main>
   );
