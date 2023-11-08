@@ -8,7 +8,7 @@ import { BsCart3 } from "react-icons/bs";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import navList from "@/data/navList";
 import SideNavItem from "./SideNavItem";
-import logo from "@/public/assets/nft_logo.png"
+import logo from "@/public/assets/nft_logo-modified.png"
 
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
