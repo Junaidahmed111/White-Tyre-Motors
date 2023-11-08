@@ -43,7 +43,7 @@ const Header1 = () => {
 
       <div className="flex px-6 h-[6vh] items-center justify-between">
         <div className="">
-          <Image src={logo} alt="logo" className="" width={70} height={50}/>
+          <Image src={logo} alt="logo" className="" width={50} height={50}/>
         </div>
         {/* md:hidden */}
         <div className="flex w-[25%] h-[70%] justify-between md:hidden">

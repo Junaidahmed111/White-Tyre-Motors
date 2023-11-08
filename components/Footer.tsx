@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import payment1 from "@/public/assets/payment1.webp";
 import Image from "next/image";
-import logo from "@/public/assets/nft_logo.png";
+import logo from "@/public/assets/nft_logo-modified.png";
 import fb from "@/public/assets/facebook.webp";
 import insta from "@/public/assets/insta.webp";
 import x from "@/public/assets/x.webp";
