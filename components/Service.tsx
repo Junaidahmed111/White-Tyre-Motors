@@ -25,7 +25,7 @@ const Service = () => {
               Highly Trained Technicians
             </h3>
             <span >
-              When it comes to safety on the road, it's vital to have expert
+              When it comes to safety on the road, its vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
               our technicians get out of the.
@@ -48,7 +48,7 @@ const Service = () => {
               Highly Trained Technicians
             </h3>
             <span>
-              When it comes to safety on the road, it's vital to have expert
+              When it comes to safety on the road, its vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
               our technicians get out of the.
@@ -72,7 +72,7 @@ const Service = () => {
               Highly Trained Technicians
             </h3>
             <span>
-              When it comes to safety on the road, it's vital to have expert
+              When it comes to safety on the road, its vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
               our technicians get out of the.
@@ -100,7 +100,7 @@ const Service = () => {
           </h3>
 
           <span>
-            When it comes to safety on the road, it's vital to have expert
+            When it comes to safety on the road, its vital to have expert
             technicians working on your car. Our recruitment process includes
             industry-leading, Ofsted-accredited training to ensure that when our
             technicians get out of the.
@@ -123,7 +123,7 @@ const Service = () => {
               Highly Trained Technicians
             </h3>
             <span>
-              When it comes to safety on the road, it's vital to have expert
+              When it comes to safety on the road, its vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
               our technicians get out of the.
@@ -147,7 +147,7 @@ const Service = () => {
               Highly Trained Technicians
             </h3>
             <span>
-              When it comes to safety on the road, it's vital to have expert
+              When it comes to safety on the road, its vital to have expert
               technicians working on your car. Our recruitment process includes
               industry-leading, Ofsted-accredited training to ensure that when
               our technicians get out of the.

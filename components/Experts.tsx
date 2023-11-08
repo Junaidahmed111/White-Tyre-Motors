@@ -6,7 +6,7 @@ const Experts = () => {
   return (
     <section className="w-full">
       <span className=" text-colorText text-3xl flex text-center font-medium justify-center mt-10">
-        For service you can trust, rely on Kwik Fit's experts
+        For service you can trust, rely on Kwik Fits experts
       </span>
 
 
@@ -24,11 +24,11 @@ const Experts = () => {
       Highly Trained Technicians
     </h3>
     <span>
-      When it comes to safety on the road, it's vital to have expert
+      When it comes to safety on the road, its vital to have expert
       technicians working on your car. Our recruitment process includes
       industry-leading, Ofsted-accredited training to ensure that when our
       technicians get out of the academy to start inspecting, servicing,
-      and repairing your vehicle, they're the best in the trade.
+      and repairing your vehicle, theyre the best in the trade.
     </span>
   </div>
 </div>
@@ -48,11 +48,11 @@ const Experts = () => {
       Highly Trained Technicians
     </h3>
     <span>
-      When it comes to safety on the road, it's vital to have expert
+      When it comes to safety on the road, its vital to have expert
       technicians working on your car. Our recruitment process includes
       industry-leading, Ofsted-accredited training to ensure that when our
       technicians get out of the academy to start inspecting, servicing,
-      and repairing your vehicle, they're the best in the trade.
+      and repairing your vehicle, theyre the best in the trade.
     </span>
   </div>
 </div>
@@ -69,11 +69,11 @@ const Experts = () => {
       Highly Trained Technicians
     </h3>
     <span>
-      When it comes to safety on the road, it's vital to have expert
+      When it comes to safety on the road, its vital to have expert
       technicians working on your car. Our recruitment process includes
       industry-leading, Ofsted-accredited training to ensure that when our
       technicians get out of the academy to start inspecting, servicing,
-      and repairing your vehicle, they're the best in the trade.
+      and repairing your vehicle, theyre the best in the trade.
     </span>
   </div>
 </div>

@@ -14,8 +14,8 @@ const More = () => {
         <span>
           Looking for motoring or driving related information? Winter driving
           tips? Car maintenance advice? Long distance drives? The difference
-          between wheel alignment and balancing? We've got information on
-          practically everything on our blog. Here's the latest:
+          between wheel alignment and balancing? Weve got information on
+          practically everything on our blog. Heres the latest:
         </span>
       </div>
 
