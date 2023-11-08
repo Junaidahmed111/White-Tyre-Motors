@@ -40,7 +40,7 @@ const MOThover = () => {
               MOT test checks
             </Link>
             <Link href="#" className="hover:underline text-colorText">
-              Pre-MOT Checks
+              Pre-MOT Check
             </Link>
             <Link href="#" className="hover:underline text-colorText">
               Driving With No MOT
