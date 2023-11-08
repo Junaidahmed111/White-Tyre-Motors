@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import logo from "@/public/assets/logo2.png";
+import logo from "@/public/assets/nft_logo-modified.png";
 import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import { BiSolidChevronUp } from "react-icons/bi";
@@ -23,7 +23,7 @@ const HeaderBar = () => {
           className="border-x-[2.5px] border-headerBorder py-4 px-5 "
         >
           {" "}
-          <Image src={logo} alt="logo" width={80} height={80} />
+          <Image src={logo} alt="logo" width={30} height={50} />
         </Link>
         <div
           onMouseEnter={() => setIsHovering(true)}

@@ -54,12 +54,9 @@ const ProductFinder = () => {
             <AiOutlineSearch />
           </button>
         </div>
-        {/* <div className="flex bg-colorButton text-white items-center justify-center gap-x-1 w-full lg:w-[25%] h-12 lg:h-[8vh] mt-4">
-          <span className="font-bold">Search</span>
-          <AiOutlineSearch />
-        </div> */}
+    
       </div>
-      <div className="mt-4 w-[95%] h-full">
+      <div className="my-6 w-[95%] h-full">
         <span>
           Please enter your postcode to see availability information from your
           local Kwik Fit centre.

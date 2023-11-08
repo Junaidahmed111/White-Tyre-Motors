@@ -8,7 +8,7 @@ import { BsCart3 } from "react-icons/bs";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import navList from "@/data/navList";
 import SideNavItem from "./SideNavItem";
-import logo from "@/public/assets/nft_logo-modified.png"
+import logo from "@/public/assets/nft_logo-modified.png";
 
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -41,9 +41,9 @@ const Header1 = () => {
         <Button>White Tyre</Button>
       </div>
 
-      <div className="flex px-6 h-[6vh] items-center justify-between">
+      <div className="flex px-6 ml-0 md:ml-10 pb-0 md:pb-10 lg:pb-0   h-[8vh] md:h-[6vh] items-center justify-between">
         <div className="">
-          <Image src={logo} alt="logo" className="" width={50} height={50}/>
+          <Image src={logo} alt="logo" className="" width={50} />
         </div>
         {/* md:hidden */}
         <div className="flex w-[25%] h-[70%] justify-between md:hidden">
@@ -65,7 +65,9 @@ const Header1 = () => {
                 <div className="flex justify-center flex-col text-white">
                   {activeTitle ? (
                     <div>
-                      <button onClick={handleBackClick}><IoMdArrowRoundBack size={20}/></button>
+                      <button onClick={handleBackClick}>
+                        <IoMdArrowRoundBack size={20} />
+                      </button>
                       {navList.map((navItem) => {
                         if (navItem.title === activeTitle) {
                           return navItem.subTitle.map((subItem) => (
@@ -86,7 +88,7 @@ const Header1 = () => {
                         key={navItem.id}
                         onClick={() => handleTitleClick(navItem.title)}
                       >
-                        <SideNavItem title={navItem.title}/>
+                        <SideNavItem title={navItem.title} />
                       </div>
                     ))
                   )}
@@ -99,7 +101,6 @@ const Header1 = () => {
                 </div>
               </div>
             )}
-            {/* <AiOutlineMenu size={20} color="white" /> */}
           </div>
         </div>
         {/* -------------- */}
