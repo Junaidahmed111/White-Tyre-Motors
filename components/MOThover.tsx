@@ -34,7 +34,7 @@ const MOThover = () => {
             </span>
             <hr className="h-[3px] bg-colorText" />
             <Link href="#" className="hover:underline text-colorText">
-              MOT failure and retest
+              MOT failure and re-test
             </Link>
             <Link href="#" className="hover:underline text-colorText">
               MOT test checks
