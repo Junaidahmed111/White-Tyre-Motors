@@ -71,7 +71,7 @@ const Header1 = () => {
                       {navList.map((navItem) => {
                         if (navItem.title === activeTitle) {
                           return navItem.subTitle.map((subItem) => (
-                            <div className="">
+                            <div className="dev">
                               <SideNavItem
                                 key={subItem.id}
                                 title={subItem.title}
