@@ -23,7 +23,7 @@ export default function Home() {
       <Service />
       <More />
       <Gif />
-      {/* <CTA /> */}
+      <CTA />
     </main>
   );
 }
