@@ -21,7 +21,7 @@ export default function Home() {
       <Experts />
       <Links/>
       <Service />
-      <More />
+      {/* <More /> */}
       <Gif />
       <CTA />
     </main>
