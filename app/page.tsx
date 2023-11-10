@@ -22,7 +22,7 @@ export default function Home() {
       <Links/>
       <Service />
       <More />
-      {/* <Gif /> */}
+      <Gif />
       <CTA />
     </main>
   );
