@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       {/* <TyreHover/> */}
       <Hero />
-      {/* <Banner /> */}
+      <Banner />
       <Offers />
       <ViewOrder />
       <Experts />
