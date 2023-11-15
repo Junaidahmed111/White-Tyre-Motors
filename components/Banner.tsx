@@ -23,7 +23,7 @@ const Banner = () => {
       </div>
       <div className="flex justify-center items-center">
         <AiFillSafetyCertificate />
-        <span>Certified Technicians</span>
+        <span>Certified Technician</span>
       </div>
     </section>
   );
