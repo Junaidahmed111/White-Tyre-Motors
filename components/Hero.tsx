@@ -13,7 +13,7 @@ const Hero = () => {
           <AiOutlineSearch color="white" size={20} />
         </div>
         <div className=" flex bg-colorBgHero items-center justify-center w-full h-[50%] gap-x-2">
-          <span className="text-colorText text-lg">search by tyre size</span>
+          <span className="text-colorText text-lg">search by tyre sizes</span>
           <AiOutlineSearch className="text-colorText" size={20} />
         </div>
       </div>
