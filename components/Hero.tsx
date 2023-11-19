@@ -6,6 +6,7 @@ import ProductFinder from "./ProductFinder";
 const Hero = () => {
   return (
     <section className="flex flex-col w-full justify-center items-center imgBg pt-4">
+      {/* div 1 for buttons */}
       <div className="flex flex-col lg:flex-row  justify-center items-center w-[80%] lg:w-[50%] h-[12vh]">
         <div className="flex bg-colorText items-center justify-center w-full h-[50%] gap-x-2">
           <span className=" text-colorBgHero text-lg">search by vehicle</span>
@@ -16,6 +17,7 @@ const Hero = () => {
           <AiOutlineSearch className="text-colorText" size={20} />
         </div>
       </div>
+      {/* ------------------ */}
       <ProductFinder />
     </section>
   );
