@@ -73,7 +73,7 @@ const Experts = () => {
       technicians working on your car. Our recruitment process includes
       industry-leading, Ofsted-accredited training to ensure that when our
       technicians get out of the academy to start inspecting, servicing,
-      and repairing your vehicle, theyre the best in the trade
+      and repairing your vehicle, theyre the best in the trade.
     </span>
   </div>
 </div>
