@@ -65,7 +65,7 @@ const Experts = () => {
     className="md:w-300 md:h-300"
   />
   <div>
-    <h3 className="text-xl font-semibold text-colorText">
+    <h3 className="text-2xl font-semibold text-colorText">
       Highly Trained Technicians
     </h3>
     <span>
