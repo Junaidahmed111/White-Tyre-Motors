@@ -17,7 +17,7 @@ const Header1 = () => {
   const [activeTitle, setActiveTitle] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleTitleClick = ({title}:any) => {
+  const handleTitleClick = ({ title }: any) => {
     setActiveTitle(title);
   };
 
@@ -70,11 +70,8 @@ const Header1 = () => {
                       {navList.map((navItem) => {
                         if (navItem.title === activeTitle) {
                           return navItem.subTitle.map((subItem) => (
-                            <div className="">
-                              <SideNavItem
-                                key={subItem.id}
-                                title={subItem.title}
-                              />
+                            <div key={subItem.id}>
+                              <SideNavItem title={subItem.title} />
                             </div>
                           ));
                         }
