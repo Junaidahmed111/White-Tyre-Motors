@@ -17,8 +17,7 @@ const Header1 = () => {
   const [activeTitle, setActiveTitle] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  //@ts-ignore
-  const handleTitleClick = (title) => {
+  const handleTitleClick = ({title}:any) => {
     setActiveTitle(title);
   };
 
@@ -103,7 +102,6 @@ const Header1 = () => {
             )}
           </div>
         </div>
-        {/* -------------- */}
         <div className=" md:flex w-[50%] hidden ">
           <input
             type="text"
